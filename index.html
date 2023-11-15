@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+
+<!-- Start of the test -->
+
+<form action="submit_handler.php" method="post">
+    <label for="userName">Name:</label>
+    <input type="text" id="userName" name="userName" required>
+
+    <p>Multiple Choice Questions:</p>
+    <label for="q1">Question 1: What is the capital of France?</label>
+    <select id="q1" name="q1">
+        <option value="paris">Paris</option>
+        <option value="london">London</option>
+        <option value="berlin">Berlin</option>
+    </select>
+
+    <label for="q2">Question 2: Which is the largest planet in our solar system?</label>
+    <select id="q2" name="q2">
+        <option value="earth">Earth</option>
+        <option value="jupiter">Jupiter</option>
+        <option value="mars">Mars</option>
+    </select>
+
+    <label for="q3">Question 3: What is the capital of Japan?</label>
+    <select id="q3" name="q3">
+        <option value="tokyo">Tokyo</option>
+        <option value="seoul">Seoul</option>
+        <option value="beijing">Beijing</option>
+    </select>
+
+    <p>Word Problem:</p>
+    <label for="wordProblem">Solve the equation: 2x + 5 = 15</label>
+    <textarea id="wordProblem" name="wordProblem" rows="4" cols="50" placeholder="Enter your answer here"></textarea>
+
+    <p>Math Symbols:</p>
+    <label for="mathSymbols">Select the correct math symbol for 5 is ___ 3:</label>
+    <select id="mathSymbols" name="mathSymbols">
+        <option value="greater">&#62;</option>
+        <option value="less">&#60;</option>
+        <option value="equal">&#61;</option>
+    </select>
+
+    <label for="submitBtn"></label>
+    <input type="submit" id="submitBtn" value="Submit">
+</form>
+
+<!-- End of the test -->
+
+</body>
+</html>
