@@ -1,57 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Scheme: Vibrant Pastels</title>
+  <style>
+    th {
+      font-style: italic;
+      color: #333;
+    }
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-<!-- Start of the test -->
-
-<form action="submit_handler.php" method="post">
-    <label for="userName">Name:</label>
-    <input type="text" id="userName" name="userName" required>
-
-    <p>Multiple Choice Questions:</p>
-    <label for="q1">Question 1: What is the capital of France?</label>
-    <select id="q1" name="q1">
-        <option value="paris">Paris</option>
-        <option value="london">London</option>
-        <option value="berlin">Berlin</option>
-    </select>
-
-    <label for="q2">Question 2: Which is the largest planet in our solar system?</label>
-    <select id="q2" name="q2">
-        <option value="earth">Earth</option>
-        <option value="jupiter">Jupiter</option>
-        <option value="mars">Mars</option>
-    </select>
-
-    <label for="q3">Question 3: What is the capital of Japan?</label>
-    <select id="q3" name="q3">
-        <option value="tokyo">Tokyo</option>
-        <option value="seoul">Seoul</option>
-        <option value="beijing">Beijing</option>
-    </select>
-
-    <p>Word Problem:</p>
-    <label for="wordProblem">Solve the equation: 2x + 5 = 15</label>
-    <textarea id="wordProblem" name="wordProblem" rows="4" cols="50" placeholder="Enter your answer here"></textarea>
-
-    <p>Math Symbols:</p>
-    <label for="mathSymbols">Select the correct math symbol for 5 is ___ 3:</label>
-    <select id="mathSymbols" name="mathSymbols">
-        <option value="greater">&#62;</option>
-        <option value="less">&#60;</option>
-        <option value="equal">&#61;</option>
-    </select>
-
-    <label for="submitBtn"></label>
-    <input type="submit" id="submitBtn" value="Submit">
-</form>
-
-<!-- End of the test -->
+  <table border="1">
+    <tr>
+      <th>Color Name</th>
+      <th>Hex</th>
+      <th>RGB</th>
+      <th>HSL</th>
+    </tr>
+    <tr>
+      <td style="background-color: #FF8C94;">Rose</td>
+      <td>#FF8C94</td>
+      <td>rgb(255, 140, 148)</td>
+      <td>hsl(355, 100%, 75%)</td>
+    </tr>
+    <tr>
+      <td style="background-color: #FFD700;">Gold</td>
+      <td>#FFD700</td>
+      <td>rgb(255, 215, 0)</td>
+      <td>hsl(50, 100%, 50%)</td>
+    </tr>
+    <tr>
+      <td style="background-color: #9ACD32;">Lime</td>
+      <td>#9ACD32</td>
+      <td>rgb(154, 205, 50)</td>
+      <td>hsl(74, 61%, 50%)</td>
+    </tr>
+    <tr>
+      <td style="background-color: #87CEEB;">Sky Blue</td>
+      <td>#87CEEB</td>
+      <td>rgb(135, 206, 235)</td>
+      <td>hsl(197, 72%, 73%)</td>
+    </tr>
+  </table>
 
 </body>
 </html>
